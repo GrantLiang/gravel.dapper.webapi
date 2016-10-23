@@ -270,6 +270,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="cstrings.config" />
     <None Include="Project_Readme.html" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
