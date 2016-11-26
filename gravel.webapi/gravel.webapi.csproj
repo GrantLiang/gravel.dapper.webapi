@@ -238,6 +238,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Controllers\ValuessController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
