@@ -4,6 +4,7 @@ using gravel.webapi.Providers;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
+using xLab.webapi.Providers;
 
 [assembly: OwinStartup(typeof(gravel.webapi.Startup))]
 
@@ -34,6 +35,8 @@ namespace gravel.webapi
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(30),
                 
                 Provider = new ApplicationOAuthProvider(),
+
+                RefreshTokenProvider = new RefreshTokenProvider(),
             };
 
             // Token Generation
