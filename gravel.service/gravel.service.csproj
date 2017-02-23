@@ -59,6 +59,7 @@
     <Compile Include="Data\EmployeesRepository.cs" />
     <Compile Include="Domain\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceManager\Account\AccountManager.cs" />
     <Compile Include="ServiceManager\Employee\EmployeeManager.cs" />
   </ItemGroup>
   <ItemGroup>

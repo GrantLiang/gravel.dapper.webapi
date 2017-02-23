@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Threading.Tasks;
 using System.Web.Http;
-using gravel.core.Providers;
-using gravel.webapi.App_Start;
+using gravel.webapi.Providers;
 using Microsoft.Owin;
-using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
-using Microsoft.Practices.Unity.WebApi;
 using Owin;
 
 [assembly: OwinStartup(typeof(gravel.webapi.Startup))]
